@@ -130,8 +130,8 @@ ax.pie(bypayment_df['payment_type'], labels=bypayment_df['index'], autopct='%1.1
 ax.set_title("Customer Demographics by Payment Type", loc="center", fontsize=30)
 ax.set_ylabel(None)
 ax.set_xlabel(None)
-ax.tick_params(axis='x', labelsize=25)
-ax.tick_params(axis='y', labelsize=30)
+ax.tick_params(axis='x', labelsize=10)
+ax.tick_params(axis='y', labelsize=20)
 st.pyplot(fig)
 
 
