@@ -81,7 +81,7 @@ st.header('Brazilian E-Commerce Dashboard :sparkles:')
 st.write("""
             Welcome to Brazilian E-Commerce Dashboard, for information about dataset source:
          """)
-st.page_link('https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce', label="Sumber Dataset")
+st.page_link('https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce', label="Dataset Source")
 st.subheader("Best & Worst Product Category Based on Sales")
  
 fig, ax = plt.subplots(nrows=2, ncols=1, figsize=(35, 40))
@@ -130,7 +130,7 @@ ax.pie(bypayment_df['payment_type'], labels=bypayment_df['index'], autopct='%1.1
 ax.set_title("Customer Demographics by Payment Type", loc="center", fontsize=30)
 ax.set_ylabel(None)
 ax.set_xlabel(None)
-ax.tick_params(axis='x', labelsize=35)
+ax.tick_params(axis='x', labelsize=25)
 ax.tick_params(axis='y', labelsize=30)
 st.pyplot(fig)
 
